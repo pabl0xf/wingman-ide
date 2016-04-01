@@ -1,6 +1,6 @@
 body{
-	background:#000000;
-	color:#00FF00;
+	background-image: url("../images/eclipse-bg.png");
+  background-repeat: no-repeat;
 	font-family:monospace;
 }
 
@@ -27,4 +27,27 @@ body{
 	left:50%;
 	margin-left:-150px;
 	text-align:center;
+}
+
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;
+}
+#console {
+    background-color: transparent !important;
+    height: 522px;
+    overflow: hidden;
+    width:660px;
+    margin-top:64px;
+    padding-left:450px;
 }
