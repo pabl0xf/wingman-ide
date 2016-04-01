@@ -89,7 +89,14 @@ var Typer={
 			var rts= new RegExp("\\s", "g"); // whitespace regex
 			var rtt= new RegExp("\\t", "g"); // tab regex
 			$("#console").html(text.replace(rtn,"<br/>").replace(rtt,"&nbsp;&nbsp;&nbsp;&nbsp;").replace(rts,"&nbsp;"));// replace newline chars with br, tabs with 4 space and blanks with an html blank
-			window.scrollBy(0,50); // scroll to make sure bottom is always visible
+			if(document.getElementById('console').scrollHeight > 525){
+                $('#console').scrollTop($('#console').scrollTop()+16)
+            }
+            hljs.configure({useBR: true});
+
+$('#console').each(function(i, block) {
+  hljs.highlightBlock(block);
+});
 		}
 		if ( key.preventDefault && key.keyCode != 122 ) { // prevent F11(fullscreen) from being blocked
 			key.preventDefault()
