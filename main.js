@@ -12,7 +12,7 @@ let mainWindow;
 
 function createWindow () {
   // Create the browser window.
-  mainWindow = new BrowserWindow({icon: 'images/eclipse-icon.png', width: 1611, height: 952});
+  mainWindow = new BrowserWindow({icon: 'src/images/eclipse-icon.png', width: 1611, height: 952});
 
   // and load the index.html of the app.
   mainWindow.loadURL('file://' + __dirname + '/src/index.html');
