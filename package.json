@@ -1,27 +1,27 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "name": "wingman-ide",
+  "version": "0.0.1",
+  "description": "A unseful but cool IDE",
   "main": "main.js",
   "scripts": {
     "start": "electron main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atom/electron-quick-start.git"
+    "url": "git+https://github.com/pabl0xf/wingman-ide"
   },
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
+    "Jesus",
+    "wingman",
+    "IDE",
+    "dancing"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "Pablo Frias",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/atom/electron-quick-start/issues"
+    "url": "https://github.com/pabl0xf/wingman-ide/issues"
   },
-  "homepage": "https://github.com/atom/electron-quick-start#readme",
+  "homepage": "https://github.com/pabl0xf/wingman-ide#readme",
   "devDependencies": {
     "electron-prebuilt": "^0.36.0"
   }
